@@ -17,6 +17,8 @@ This project is especially useful for recruiters or hiring managers looking for 
 - Showcase real warehouse/logistics knowledge based on 17+ years of practice
 - Simulate SAP eWM flows and concepts using diagrams and documentation
 - Prepare reusable resources for interviews or onboarding into SAP teams
+- | `real-case-metal-transfer.md` | Realistic case study of controlled material flow 
+
 
 ---
 
