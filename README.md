@@ -10,6 +10,8 @@ This repository presents a conceptual overview of typical warehouse processes mo
 
 This project is especially useful for recruiters or hiring managers looking for candidates with warehouse operations experience who are transitioning into SAP eWM consulting.
 
+🔗 [Zobacz wersję README po polsku](README_PL.md)
+
 ---
 
 ## 🧠 Goals of this Repository
@@ -17,8 +19,6 @@ This project is especially useful for recruiters or hiring managers looking for 
 - Showcase real warehouse/logistics knowledge based on 17+ years of practice
 - Simulate SAP eWM flows and concepts using diagrams and documentation
 - Prepare reusable resources for interviews or onboarding into SAP teams
-- | `real-case-metal-transfer.md` | Realistic case study of controlled material flow 
-
 
 ---
 
@@ -31,6 +31,7 @@ This project is especially useful for recruiters or hiring managers looking for 
 | `stock-transfer.md`       | Simulates internal stock movements              |
 | `storage-bins-layout.md`  | Describes layout and bin logic in a warehouse   |
 | `sap-ewm-terminology.md`  | Dictionary of eWM terms and their usage         |
+| `real-case-metal-transfer.md` | Realistic case study of controlled material flow |
 | `example-documents/`      | Visual diagrams (draw.io or PNGs)               |
 
 ---
