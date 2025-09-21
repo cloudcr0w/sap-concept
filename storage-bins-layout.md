@@ -6,11 +6,26 @@ This document describes a sample warehouse layout and bin logic structure used i
 
 ## 🖼️ Conceptual Layout (Visualized)
 
-![Warehouse Layout](example-documents/sap-diagram.png)
-
-*Sample layout showing the flow of goods: from Receiving through Quality Control, Storage, Staging, and finally Shipping.*
+-
+-![Warehouse Layout](example-documents/sap-diagram.png)
+-
+-*Sample layout showing the flow of goods: from Receiving through Quality Control, Storage, Staging, and finally Shipping.*
++## 🖼️ Conceptual Layout (Simplified)
++
++```text
++Receiving (0100) → Quality (0150) → High Rack (0050) → Staging (0200) → Shipping
++```
++
++*Simplified flow showing the main storage types used in the sample model.*
 
 ---
+
+## 🧠 Example Strategies
+
+- **Putaway (0100 → 0050):** FIFO, fixed bins for A-items, open-bin for B/C.
+- **Picking (0050 → 0200):** Activity-area sequence, cluster picking for small picks.
+- **QA Segregation (0150):** Stock type control; release to unrestricted after usage decision.
+
 
 ## 🧱 Storage Types and Example Bins
 
@@ -31,4 +46,8 @@ This document describes a sample warehouse layout and bin logic structure used i
 
 ---
 
-📎 See also: [Stock Transfer](stock-transfer.md) | [Inbound Process](inbound-process.md)
+
+## 📎 See also
+- [Inbound Process](inbound-process.md)
+- [Outbound Process](outbound-process.md)
+- [Stock Transfer](stock-transfer.md)

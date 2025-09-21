@@ -113,6 +113,10 @@ This case reflects the level of coordination and SAP configuration needed for:
 
 ---
 
-📎 See general principles in [Stock Transfer](stock-transfer.md)
+## 📎 See general principles in [Stock Transfer](stock-transfer.md)
 
 Based on anonymized operational workflows from previous industry experience. Does not disclose any proprietary or material-sensitive information.
+
+Also:
+
+- [Warehouse Layout & Bins](storage-bins-layout.md)

@@ -99,3 +99,9 @@ These movements were used for:
 ## 📎 Real-World Example
 
 ➡️ See [Real Case: Controlled Industrial Transfer](real-case-metal-transfer.md) for a detailed simulation based on my actual SAP logistics experience.
+
+## 📎 See also
+
+- [Inbound Process](inbound-process.md)
+- [Outbound Process](outbound-process.md)
+- [Warehouse Layout & Bins](storage-bins-layout.md)

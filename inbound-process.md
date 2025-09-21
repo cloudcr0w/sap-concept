@@ -68,3 +68,9 @@ A delivery of raw materials arrives at the warehouse dock. The materials must be
 ## 🔗 Next Step
 
 ➡️ See [Outbound Process](outbound-process.md) for the follow-up steps in warehouse logistics.
+
+## 📎 See also
+
+
+- [Stock Transfer](stock-transfer.md)
+- [Warehouse Layout & Bins](storage-bins-layout.md)
