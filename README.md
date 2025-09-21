@@ -85,6 +85,14 @@ Alongside my SAP/logistics background, I also develop projects in cloud and DevO
 
 ---
 
+## 🛣️ Next Steps (Roadmap)
+- Add **Yard Management** example (doors, gates, TU assignment)
+- Document **Wave Picking** and **Slotting** scenarios
+- Provide example **Packaging Specification** and HU labeling
+- Draft simple **integration note** for SAP on AWS / SAP BTP
+
+---
+
 ## 📌 Author
 
 **Adam Wrona** – 17 years of experience in industrial logistics and SAP MM operations (inventory transfers, storno, inter-plant movements). Now developing career in SAP eWM consulting with practical insight and technical skills.

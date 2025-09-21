@@ -81,6 +81,14 @@ Poza doświadczeniem logistycznym rozwijam także projekty z zakresu DevOps i ch
 
 ---
 
+## 🛣️ Co dalej (Roadmap)
+- Dodać przykład **Yard Management** (bramy, doki, przypisanie pojazdów)
+- Opisać **Wave Picking** i **Slotting**
+- Dodać przykładową **Specyfikację pakowania** i etykietowanie HU
+- Szkic **integracji SAP na AWS / SAP BTP**
+
+---
+
 ## 📌 Autor
 
 **Adam Wrona** – 17 lat doświadczenia w logistyce przemysłowej oraz pracy w SAP (MM, WM, obsługa partii, przesunięcia magazynowe, kontrola jakości). Obecnie rozwijam się jako konsultant SAP eWM i wdrażam wiedzę operacyjną w nowoczesne narzędzia
