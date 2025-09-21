@@ -1,5 +1,9 @@
 # 📦 SAP eWM Concept Project
 
+![SAP](https://img.shields.io/badge/SAP-eWM-blue)  
+![Logistics](https://img.shields.io/badge/Industry-Logistics-green)  
+![Portfolio](https://img.shields.io/badge/Portfolio-Case_Study-orange)
+
 Welcome to the **SAP Extended Warehouse Management (eWM) Process Simulation** project.
 
 This repository presents a conceptual overview of typical warehouse processes modeled with SAP eWM terminology. Although it's not connected to a live SAP system, it demonstrates:
@@ -41,6 +45,29 @@ This project is especially useful for recruiters or hiring managers looking for 
 - 3 storage areas: Receiving → High-rack storage → Staging for outbound
 - Multiple movement types (putaway, internal transfer, pick/pack)
 - FIFO logic, inventory visibility, storage bin management
+
+---
+## 📊 Process Flow Diagrams
+
+Below are simplified diagrams illustrating the inbound and outbound flows
+as they are typically modeled in SAP eWM.
+
+### 📦 Inbound & Outbound Flows
+
+![Inbound Process](example-documents/inbound_flow.png)  
+*Example of inbound process in SAP eWM*
+
+### 🚚 Warehouse Process Visualization
+![Outbound Process](example-documents/outbound_flow.png)  
+*Example of outbound process in SAP eWM*
+
+
+## 🎯 Why This Project Matters for Recruiters
+
+- Demonstrates real SAP MM/WM/eWM process knowledge
+- Shows ability to document and simulate warehouse flows
+- Bridges SAP with modern IT/DevOps skills (cloud, automation)
+- Ready-to-use resource for technical interviews
 
 ---
 

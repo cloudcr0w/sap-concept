@@ -1,5 +1,9 @@
 # 📦 SAP eWM – Koncepcyjny Projekt Logistyczny
 
+![SAP](https://img.shields.io/badge/SAP-eWM-blue)  
+![Logistics](https://img.shields.io/badge/Industry-Logistics-green)  
+![Portfolio](https://img.shields.io/badge/Portfolio-Case_Study-orange)
+
 Witaj w projekcie symulującym procesy magazynowe w SAP Extended Warehouse Management (eWM).
 
 Ten projekt przedstawia koncepcyjne opracowanie typowych procesów magazynowych z wykorzystaniem terminologii i logiki SAP eWM. Choć nie jest to podpięte do prawdziwego systemu SAP, projekt demonstruje:
@@ -37,6 +41,29 @@ Ten projekt przedstawia koncepcyjne opracowanie typowych procesów magazynowych 
 - Strefy: Przyjęć (GR) → Kontrola Jakości → Magazyn wysokiego składowania → Strefa załadunku
 - Ruchy: Putaway, picking, przesunięcia bin-to-bin, inspekcja
 - FIFO, pełna identyfikowalność, obsługa partii
+
+---
+
+## 📊 Diagramy procesów
+
+### Proces przyjęcia (Inbound)
+
+![Inbound Process](example-documents/inbound_flow_PL.png)  
+*Przykład procesu przyjęcia dostawy w SAP eWM*
+
+### Proces wydania (Outbound)
+
+![Outbound Process](example-documents/outbound_flow_PL.png)  
+*Przykład procesu kompletacji i wysyłki w SAP eWM*
+
+---
+
+## 🎯 Dlaczego ten projekt może być ważny dla rekruterów
+
+- Pokazuje praktyczną wiedzę procesową SAP MM/WM/eWM
+- Udowadnia umiejętność dokumentowania i symulowania procesów magazynowych
+- Łączy SAP z nowoczesnym IT/DevOps (chmura, automatyzacja)
+- Gotowy materiał do rozmów technicznych
 
 ---
 
