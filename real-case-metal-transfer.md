@@ -103,6 +103,15 @@ A by-product from heavy industrial processing is transferred regularly from a pr
 
 ---
 
+## 🧩 Lessons Learned / Key Insights
+- **Traceability first:** seal IDs + HU IDs + SAP movements = auditable chain-of-custody.
+- **QA integration is critical:** inspection timing drives stock-type and bin decisions.
+- **Weighing discipline:** weight tickets aligned with SAP postings prevent reconciliation drift.
+- **Staging discipline:** physical co-location of HUs with documentation reduces loading errors.
+- **Role clarity:** 4-party protocol eliminates single points of failure in approvals.
+
+---
+
 ## 💬 Notes
 
 This case reflects the level of coordination and SAP configuration needed for:
