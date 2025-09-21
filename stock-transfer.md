@@ -55,7 +55,7 @@ In previous operations, I routinely managed:
 | **311** | Classic bin-to-bin transfer within same plant/storage location |
 | **309** | Material-to-material transfer (e.g. sample → production batch) |
 | **313 / 315** | Movement from storage location → warehouse (and reverse) |
-| **305** | Transfer between unrestricted and quality stock types |
+| **343 / 344** | Transfer between blocked and unrestricted stock (classic MM) |
 
 These movements were used for:
 - Inter-department transfers (production → quality → final staging),
@@ -67,14 +67,14 @@ These movements were used for:
 
 ## 📋 Example Parameters
 
-| Element             | Value                        |
-|---------------------|------------------------------|
-| Source Bin          | BIN_PROD_A1                  |
-| Destination Bin     | BIN_QA_LOCKED                |
-| Source Storage Type | 0050 (Production Floor)       |
+| Element             | Value                         |
+|---------------------|-------------------------------|
+| Source Bin          | BIN_PROD_A1                   |
+| Destination Bin     | BIN_QA_LOCKED                 |
+| Source Storage Type | 0050 (High-Rack Storage)      |
 | Destination Type    | 0150 (Secured QA Zone)        |
 | Movement Reason     | Sampling for certification    |
-| Stock Type          | Unrestricted → Quality stock |
+| Stock Type          | Unrestricted → Quality stock  |
 
 ---
 

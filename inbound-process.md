@@ -1,6 +1,6 @@
-# 📥 Inbound Process – Goods Receipt in SAP eWM
+# 📥 Inbound Process – Goods Receipt in SAP EWM
 
-This document describes the conceptual flow of an inbound process in a warehouse managed by SAP Extended Warehouse Management (eWM).
+This document describes the conceptual flow of an inbound process in a warehouse managed by SAP Extended Warehouse Management (EWM).
 
 ---
 
@@ -13,20 +13,20 @@ A delivery of raw materials arrives at the warehouse dock. The materials must be
 
 ## 🧭 Process Steps
 
-1. **Delivery Creation (ERP → eWM)**  
+1. **Delivery Creation (ERP → EWM)**  
    - A purchase order is created in SAP ERP.  
-   - An inbound delivery is generated and distributed to eWM.
+   - An inbound delivery is generated and distributed to EWM.
 
 2. **Goods Arrival and Unloading**  
    - Goods are physically received at the warehouse dock.  
    - Dock workers confirm unloading using RF or desktop transactions (e.g. /SCWM/PRDI).
 
 3. **Goods Receipt Posting**  
-   - Goods receipt is posted in eWM, updating stock levels.  
+   - Goods receipt is posted in EWM, updating stock levels.  
    - Status is set to “Received” but not yet available for outbound use.
 
 4. **Putaway Task Creation**  
-   - eWM creates warehouse tasks for putaway based on rules (e.g., product type, HU, volume).  
+   - EWM creates warehouse tasks for putaway based on rules (e.g., product type, HU, volume).  
    - Storage type search strategy is applied.
 
 5. **Putaway Execution**  
@@ -38,9 +38,9 @@ A delivery of raw materials arrives at the warehouse dock. The materials must be
 
 ## 📦 Sample Parameters
 
-| Element              | Example Value               |
-|----------------------|-----------------------------|
-| Storage Type         | 0010 (Goods Receipt Zone)    |
+| Element              | Example Value                |
+|----------------------|------------------------------|
+| Storage Type         | 0100 (Goods Receipt Zone)    |
 | Putaway Storage Type | 0050 (High Rack Storage)     |
 | HU Type              | EURO_PALLET                  |
 | Product Group        | RAW_MATERIALS                |
