@@ -1,0 +1,10 @@
+product_groups:
+  RAW_MATERIALS:
+    storage_type: "0050"   # High Rack
+    bin: "HR-01-01"
+  PACKAGING:
+    storage_type: "0060"   # Bulk
+    bin: "BK-02-05"
+  FINISHED_GOODS:
+    storage_type: "0070"   # FG area
+    bin: "FG-01-02"
