@@ -61,6 +61,26 @@ as they are typically modeled in SAP eWM.
 ![Outbound Process](example-documents/outbound_flow.png)  
 *Example of outbound process in SAP eWM*
 
+## 🧠 Run the Inbound Process Simulation
+
+[![Python](https://img.shields.io/badge/Python-3.10+-blue.svg)](https://www.python.org/)  
+
+This project includes a lightweight **SAP eWM inbound process simulator** written in Python.  
+It reads simple YAML definitions and prints a realistic warehouse workflow log.
+
+### 🔧 Run locally
+
+```bash
+# (optional) install YAML support
+pip install pyyaml
+
+# run the inbound simulation
+python sap-ewm/simulate_inbound.py \
+  --process sap-ewm/inbound_process.yaml \
+  --event sap-ewm/samples/inbound_event.yaml \
+  --bins sap-ewm/data/master_bins.yaml \
+  --out sap-ewm/out/inbound_result.json
+```
 
 ## 🎯 Why This Project Matters for Recruiters
 
