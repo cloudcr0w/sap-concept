@@ -1,0 +1,6 @@
+steps:
+  - create_inbound_delivery
+  - unload_goods
+  - post_goods_receipt
+  - create_putaway_task
+  - confirm_putaway
