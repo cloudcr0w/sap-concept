@@ -1,0 +1,13 @@
+po_number: "4500012345"
+delivery: "1800009876"
+items:
+  - material: "RM-ALUMINIUM"
+    qty: 120
+    product_group: RAW_MATERIALS
+    hu_type: EURO_PALLET
+    strategy: FIFO
+  - material: "RM-COPPER"
+    qty: 80
+    product_group: RAW_MATERIALS
+    hu_type: EURO_PALLET
+    strategy: FIFO
