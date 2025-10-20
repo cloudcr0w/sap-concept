@@ -58,6 +58,27 @@ Ten projekt przedstawia koncepcyjne opracowanie typowych procesów magazynowych 
 
 ---
 
+## 🧠 Uruchom symulację procesu przyjęcia towaru (Inbound)
+
+[![Python](https://img.shields.io/badge/Python-3.10+-blue.svg)](https://www.python.org/)  
+
+Projekt zawiera prosty **symulator procesu przyjęcia dostawy (SAP eWM)** napisany w Pythonie.  
+Wykorzystuje pliki YAML do zdefiniowania kroków procesu i danych magazynowych, a następnie wyświetla szczegółowy log kroków.
+
+### 🔧 Uruchomienie lokalne
+
+```bash
+# (opcjonalnie) instalacja obsługi YAML
+pip install pyyaml
+
+# uruchomienie symulacji
+python sap-ewm/simulate_inbound.py \
+  --process sap-ewm/inbound_process.yaml \
+  --event sap-ewm/samples/inbound_event.yaml \
+  --bins sap-ewm/data/master_bins.yaml \
+  --out sap-ewm/out/inbound_result.json
+  ```
+
 ## 🎯 Dlaczego ten projekt może być ważny dla rekruterów
 
 - Pokazuje praktyczną wiedzę procesową SAP MM/WM/eWM
